@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="gsc_light",
-    version="0.0.8",
+    version="0.0.9",
     author="Gunnar Griese",
     author_email="gunnargriese@gmx.de",
     description="A small package for Google Search Console",
