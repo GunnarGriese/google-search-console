@@ -27,5 +27,5 @@ def authenticate_to_gsc(CLIENT_SECRET_FILE, AUTH_SCOPES):
     # Build the client for Search Console API
     api_client = discovery.build(serviceName=api_name, version=api_version, http=authed_http)
 
-    return gsc.GSCClient(api_client, credentials)
-    #return gsc_client.GSCClient(api_client, credentials)
+    #return gsc.GSCClient(api_client, credentials)
+    return gsc_client.GSCClient(api_client, credentials)

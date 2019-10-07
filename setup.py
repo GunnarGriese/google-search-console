@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="gsc_light",
-    version="0.0.9",
+    name="gsclight",
+    version="0.0.17",
     author="Gunnar Griese",
-    author_email="gunnargriese@gmx.de",
-    description="A small package for Google Search Console",
+    author_email="gugriese.gg@gmail.com",
+    description="A simplified package for Google Search Console API",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/pypa/sampleproject",
